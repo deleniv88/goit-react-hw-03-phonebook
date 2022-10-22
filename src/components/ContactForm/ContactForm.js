@@ -11,7 +11,7 @@ class ContactForm extends Component {
 
     handelOnChange = e => {
         const { name, value } = e.currentTarget;
-        this.setState({ [name]: value })
+        this.setState({ [name]: value }) // eslint-disable-next-line
     };
 
     handelSubmit = e => {
