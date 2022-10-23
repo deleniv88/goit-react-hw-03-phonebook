@@ -31,6 +31,8 @@ class ContactForm extends Component {
         })
     };
 
+    
+
     render() {
         return (
             <div className={css.contactFormInput}>
