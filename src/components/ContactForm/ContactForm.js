@@ -16,7 +16,7 @@ class ContactForm extends Component {
 
     handelSubmit = e => {
         e.preventDefault();
-        this.props.onSubmit(this.state = {
+        this.props.onSubmit({
             name: this.state.name,
             number: this.state.number,
             id: shortid.generate()
